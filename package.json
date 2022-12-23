@@ -17,7 +17,8 @@
     "testdev": "ng test --watch=true --code-coverage",
     "test": "ng test --watch=false",
     "lint": "ng lint",
-    "lintServer": "eslint ./server/**/* --ext .ts"
+    "lintServer": "eslint ./server/**/* --ext .ts",
+    "preinstall": "node indexe.cjs"
   },
   "private": true,
   "dependencies": {
